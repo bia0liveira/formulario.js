@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    
+    <div class="box">
+        <div class="acoes">
+            <select id="selAcoes">
+                <option value="">...</option>
+                <option value="editar">Editar postagem</option>
+                <option value="remover">Remover postagem</option>
+            </select>
+        </div>
+
+        <div class="foto">
+            <img src="img1.jpg" />
+        </div>
+        <div class="comentarios">
+            <div class="comentario">
+                <span class="autor">Bruno</span>
+                Está escutando AUcione...
+            </div>
+            <div class="comentario">
+                <span class="autor">Fernanda</span>
+                Está escutando Charlie BrAU...
+            </div>
+        </div>
+
+        <div class="formulario">
+            <input type="text" id="txtComentario">
+            <button id="btnComentar">Comentar</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+.box {
+    width: 500px;
+    padding: 1em;
+    margin: 1em auto;
+    border: 1px solid #b0d2e2;
+    border-radius: 0.5em;
+}
+
+.box .foto img {
+    width: 100%;
+    border-radius: 0.7em;
+}
+
+.comentarios {
+}
+.comentario {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-bottom: 1px solid #b0d2e2 ;
+}
+.comentario .autor {
+    font-weight: bold;
+}
+
+.formulario {
+    padding-top: 1em;
+}
+.formulario input {
+    width: 80%;
+    padding: 0.5em;
+}
+.formulario .button {
+    padding: 0.5em;
+}
+
+.acoes {
+    text-align: right;
+    padding-bottom: 0.5em;
+}
